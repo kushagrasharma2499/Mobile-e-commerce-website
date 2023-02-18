@@ -27,4 +27,4 @@ const user = mongoose.model('User', userSchema);
 const product = mongoose.model('Product', productSchema);
 const cart = mongoose.model('Cart', cartSchema);
 
-module.exports = {course, product, cart};
+module.exports = {user, product, cart};
